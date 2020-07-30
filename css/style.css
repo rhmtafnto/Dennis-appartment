@@ -1,0 +1,75 @@
+h2{
+    font-size: 30px;
+    margin: 60px 0;
+}
+
+#title {
+    background: url("../images/apartment.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    padding: 2% 7%;
+    color: #365874;
+}
+
+#title a{
+    margin-right: 10px;
+}
+
+#title h1 {
+    margin-top: 180px;
+}
+
+#title p {
+    color: #aabee5;
+    font-size: 24px;
+    padding-right: 15px;
+}
+
+/* fasilitas */
+#fasilitas{
+    padding-top: 4%;
+}
+
+#fasilitas img{
+    height: 220px;
+}
+
+#fasilitas p{
+    padding-right: 30px;
+}
+
+#harga-sewa{
+    margin-top: 40px;
+}
+
+#harga-sewa .card{
+    margin: 20px;
+}
+#harga-sewa p{
+    padding-right: 20px;
+}
+
+#tentang-kami{
+    background-color: #1da1f2;
+    color: white;
+    padding: 30px 0;
+}
+#tentang-kami img{
+    height: 30px;
+    margin-right: 20px;
+}
+#tentang-kami h2{
+    margin: 30px;
+}
+
+@media(max-width:980px){
+    
+    #title{
+        background: #cce8fc;
+        height: 500px;
+    }
+    #title h1 {
+        margin-top: 100px;
+    }
+}
